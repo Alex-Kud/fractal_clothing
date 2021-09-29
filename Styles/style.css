@@ -1,0 +1,120 @@
+body {
+    background-color: rgb(191, 191, 255);
+}
+
+#header {
+    text-align: center;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+#container {
+    display: flex;
+}
+
+#description {
+    float: left;
+    width: 350px;
+}
+
+#txtd, #txts {
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 30px;
+}
+
+#MyCanvas {
+    background-color: white;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+#settings {
+    float: right;
+    width: 300px;
+    min-height: 100%;
+}
+
+#clothes_futbolka, #clothes_svitshot, #clothes_dress, #clothes_hoodie, #clothes_shopper {
+    height: 55px;
+    width: 55px;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: transparent;
+    box-shadow: 0 0 5px;
+}
+
+#clothes_futbolka:hover, #clothes_svitshot:hover, #clothes_dress:hover, #clothes_hoodie:hover, #clothes_shopper:hover {
+    border-color: rgb(24, 40, 255);
+}
+
+#clothes_futbolka {
+    background-image: url(../Pictures/buttons/futbolka.png);
+    background-size: contain;
+}
+
+#clothes_svitshot {
+    background-image: url(../Pictures/buttons/svitshot.png);
+    background-size: contain;
+}
+
+#clothes_dress {
+    background-image: url(../Pictures/buttons/dress.png);
+    background-size: contain;
+}
+
+#clothes_hoodie {
+    background-image: url(../Pictures/buttons/hoodie.png);
+    background-size: contain;
+}
+
+#clothes_shopper {
+    background-image: url(../Pictures/buttons/shopper.png);
+    background-size: contain;
+}
+
+#b1, #b2 {
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: transparent;
+    box-shadow: 0 0 5px;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+}
+
+#b1:hover, #b2:hover {
+    border-color: rgb(24, 40, 255);
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 24px;
+}
+
+p {
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+#for_smartphone{
+	display: none;
+}
+
+@media handheld,(max-width: 930px){
+	#container, h1{
+		display: none;
+	}
+	#for_smartphone{
+		display: block;
+		font-size: 30px;
+	}
+}
