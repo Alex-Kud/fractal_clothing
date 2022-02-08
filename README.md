@@ -12,7 +12,7 @@ The project of a constructor of fashion design based on fractals. The user can c
 - `click(e)` - to handle mouse (for moving) and keyboard (for zooming) events.  
 
 ## Demonstration of the work
-<iframe width="360" height="202" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameBorder="0" src="https://imgflip.com/embed/64f7b4"></iframe>
+<div><iframe width="360" height="202" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameBorder="0" src="https://imgflip.com/embed/64f7b4"></iframe></div>
 ## Examples of clothing
 ![T-shirt](/img_for_readme/1.png)
 ![Longsleeve](/img_for_readme/2.png)
