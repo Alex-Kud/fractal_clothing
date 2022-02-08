@@ -1,4 +1,4 @@
-# fractal_clothing
+# Fractal Clothing
 The project of a constructor of fashion design based on fractals. The user can change the scale, color and position of the fractal, choosing a unique design for several types of clothing. The project is under development and functional additions.  
 
 ## Description of methods of the Mandelbrot class
